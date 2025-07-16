@@ -4007,4 +4007,29 @@
   font-size: 1.75em;
   font-weight: 600;
 }
+/* Insert Movies tab */
+.paperListItemIcon[data-id="home"]::after {
+    content: "Movies";
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    background: #3b3b3b;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Insert Shows tab */
+.paperListItemIcon[data-id="home"]::before {
+    content: "Shows";
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+    background: #3b3b3b;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
 
